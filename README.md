@@ -6,3 +6,4 @@
 4. added ejs templated expressjs app, scaffolded by express generator cli. Note, this is a separate package that requires own dependency installation and script runner.
 5. added expressjs app with basic routing examples, to demonstrate different HTTP verbs (namely GET, POST, PUT, PATCH, DELETE) handling on the same route path.
 6. added expressjs app with static routing and virtual path prefix to all static resources.
+7. added expressjs app that handles different response formatting based on content type accept header
