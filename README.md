@@ -11,3 +11,4 @@
 4. added expressjs app with static routing and virtual path prefix to all static resources.
 5. added expressjs app that handles different response formatting based on content type accept header
 6. added expressjs app that sets session cookie
+7. added expressjs app that sets cookies
