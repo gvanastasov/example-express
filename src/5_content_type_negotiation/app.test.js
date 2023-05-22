@@ -2,7 +2,7 @@ const supertest = require('supertest');
 const http = require('http');
 const { app } = require('./app.js');
 
-describe('Users endpoint content negotiation', () => {
+describe('Content Negotiation Example Server', () => {
     let server;
     let request;
 

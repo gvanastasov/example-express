@@ -2,7 +2,7 @@ const supertest = require('supertest');
 const http = require('http');
 const { app } = require('./app.js');
 
-describe('verb endpoint', () => {
+describe('Basic Routing Example Server', () => {
     let server;
     let request;
 

@@ -2,7 +2,7 @@ const supertest = require('supertest');
 const http = require('http');
 const { app } = require('./app.js');
 
-describe('Hello World! endpoint', () => {
+describe('Hello World! Example Server', () => {
     let server;
     let request;
 
