@@ -1,0 +1,13 @@
+
+<%- include('./layout/header.html') -%>
+
+<div>
+    <h1>Users</h1>
+    <ul id="users">
+      <% users.forEach(function(user){ %>
+        <li><%= user.name %></li>
+      <% }) %>
+    </ul>
+</div>
+
+<%- include('./layout/footer.html') -%>

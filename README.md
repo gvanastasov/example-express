@@ -13,3 +13,4 @@
 6. added expressjs app that sets session cookie
 7. added expressjs app that sets cookies
 8. added expressjs app that allows binaries downloading
+9. added expressjs app that uses ejs templates for the render engine
