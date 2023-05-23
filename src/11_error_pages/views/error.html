@@ -1,0 +1,11 @@
+<%- include('./layout/header.html') -%>
+
+<div>
+    <h1><%= error.title %></h1>
+    <p><%= error.message %></p>
+    <% if (settings['verbose errors']) { %>
+        <pre><%= error.stack %></pre>
+    <% } %>
+</div>
+
+<%- include('./layout/footer.html') -%>
