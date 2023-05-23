@@ -14,3 +14,4 @@
 7. added expressjs app that sets cookies
 8. added expressjs app that allows binaries downloading
 9. added expressjs app that uses ejs templates for the render engine
+10. added expressjs app that enables authentication middleware, introduces restricted view, login basic flow with bcrypt and ejs as template engine

@@ -1,0 +1,21 @@
+
+<%- include('./layout/header.html') -%>
+
+<div>
+    <h1><%= header %></h1>
+    <form method="post" action="/login">
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" value="admin">
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="text" name="password" id="password" value="password">
+        </p>
+        <p>
+            <input type="submit" value="Login">
+        </p>
+    </form>
+</div>
+
+<%- include('./layout/footer.html') -%>

@@ -15,6 +15,12 @@
             "windows": {
                 "program": "${workspaceFolder}/node_modules/jest/bin/jest"
             }
+        },
+        {
+            "name": "Authentication",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/10_authentication/bin/www"
         }
     ]
 }
