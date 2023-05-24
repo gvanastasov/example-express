@@ -3,6 +3,7 @@
 ## phases
 1. installation of expressjs
 2. install and configure testing framework - jest and supertest
+3. identify different scenarios and build an example for each (see list below)
 
 ## example servers
 1. added 'hello world' expressjs app
@@ -18,3 +19,4 @@
 10. added expressjs app that enables authentication middleware, introduces restricted view, login basic flow with bcrypt and ejs as template engine
 11. added expressjs app that handles various error scenarios, with focus on route handle chaining and error formatting (with verbosity)
 12. added expressjs app that handles multiple routers, showcasing version handling via route segment
+13. added expressjs app that handles model-view-controller (mvc) pattern. Used asp.net interface for reference of the api. Will probably move to its own package if needed for more emphisizing.
