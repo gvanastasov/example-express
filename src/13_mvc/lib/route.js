@@ -8,7 +8,7 @@ function baseController(options, context) {
     this.view = function(options) {
         let optionsInternal = { ...this.options, ...options };
         let viewName = optionsInternal.viewName || 'index';
-        this.context.responseContext.res.render(viewName, { viewBag: optionsInternal.bag });
+        this.context.responseContext.res.render(viewName, { viewBag: optionsInternal.viewBag });
     }
 }
 

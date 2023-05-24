@@ -1,0 +1,8 @@
+<div>
+    <h1>Home - Users</h1>
+    <ul>
+        <% viewBag.users.forEach(function(user){ %>
+        <li><%= user.name %></li>
+        <% }) %>
+    </ul>
+</div>
