@@ -24,3 +24,4 @@
 15. added expressjs app that adds support for resource pattern application and showcases a simple object designed with it. [Read more](https://cloud.google.com/apis/design/resources)
 16. added expressjs app that adds support for mapping routing via nested properties.
 17. added expressjs app that showcases adding global, route and chained middlewares.
+18. added expressjs app that uses multiple engines, as well merging them.

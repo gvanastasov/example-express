@@ -8,6 +8,7 @@
 
 
 
+
         {
             "type": "node",
             "request": "launch",
@@ -55,6 +56,12 @@
             "type": "node",
             "request": "launch",
             "program": "${workspaceFolder}/src/17_route_middleware/bin/www"
+        },
+        {
+            "name": "Multi Template",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/18_multi_template/bin/www"
         },
     ]
 }
