@@ -43,5 +43,11 @@
             "request": "launch",
             "program": "${workspaceFolder}/src/14_params/bin/www"
         },
+        {
+            "name": "Resource",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/15_resource_pattern/bin/www"
+        },
     ]
 }
