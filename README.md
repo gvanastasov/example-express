@@ -20,3 +20,4 @@
 11. added expressjs app that handles various error scenarios, with focus on route handle chaining and error formatting (with verbosity)
 12. added expressjs app that handles multiple routers, showcasing version handling via route segment
 13. added expressjs app that handles model-view-controller (mvc) pattern. Used asp.net interface for reference of the api. Will probably move to its own package if needed for more emphisizing.
+14. added expressjs app that handles request url segment parameters. Examples given are converting params to integer, extending request context with data.

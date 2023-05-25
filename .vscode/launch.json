@@ -37,5 +37,11 @@
             "request": "launch",
             "program": "${workspaceFolder}/src/13_mvc/bin/www"
         },
+        {
+            "name": "Params",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/14_params/bin/www"
+        },
     ]
 }
