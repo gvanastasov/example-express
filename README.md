@@ -21,4 +21,5 @@
 12. added expressjs app that handles multiple routers, showcasing version handling via route segment
 13. added expressjs app that handles model-view-controller (mvc) pattern. Used asp.net interface for reference of the api. Will probably move to its own package if needed for more emphisizing.
 14. added expressjs app that handles request url segment parameters. Examples given are converting params to integer, extending request context with data.
-15. added expressjs app that add support for resource pattern application and showcases a simple object designed with it. [Read more](https://cloud.google.com/apis/design/resources)
+15. added expressjs app that adds support for resource pattern application and showcases a simple object designed with it. [Read more](https://cloud.google.com/apis/design/resources)
+16. added expressjs app that adds support for mapping routing via nested properties.
