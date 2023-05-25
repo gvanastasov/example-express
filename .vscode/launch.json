@@ -7,6 +7,7 @@
 
 
 
+
         {
             "type": "node",
             "request": "launch",
@@ -48,6 +49,12 @@
             "type": "node",
             "request": "launch",
             "program": "${workspaceFolder}/src/15_resource_pattern/bin/www"
+        },
+        {
+            "name": "Middleware",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/17_route_middleware/bin/www"
         },
     ]
 }

@@ -23,3 +23,4 @@
 14. added expressjs app that handles request url segment parameters. Examples given are converting params to integer, extending request context with data.
 15. added expressjs app that adds support for resource pattern application and showcases a simple object designed with it. [Read more](https://cloud.google.com/apis/design/resources)
 16. added expressjs app that adds support for mapping routing via nested properties.
+17. added expressjs app that showcases adding global, route and chained middlewares.
