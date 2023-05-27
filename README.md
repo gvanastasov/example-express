@@ -247,6 +247,18 @@ node ./src/19_swagger/bin/www
 ```
 </details>
 
+<details>
+    <summary>
+        <ins>Logging</ins>
+    </summary>
+    Showcasing logging middleware for Express.js, namely Morgan, that simplifies the process of logging HTTP requests and responses. It can generate logs with different formats, including predefined formats like "dev" for development environments and "combined" for production environments.
+
+```sh
+# run
+node ./src/20_logging/bin/www
+```
+</details>
+
 ## **License**
 
 This repository is licensed under the [MIT](./LICENSE.md) License.
