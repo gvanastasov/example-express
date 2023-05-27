@@ -25,3 +25,4 @@
 16. added expressjs app that adds support for mapping routing via nested properties.
 17. added expressjs app that showcases adding global, route and chained middlewares.
 18. added expressjs app that uses multiple engines, as well merging them.
+19. added expressjs app that has multiple versions of web api exposed (namely v1, v2) and swagger-ui + swagger-jsdocs configured to show both versions of the api inside swagger.
