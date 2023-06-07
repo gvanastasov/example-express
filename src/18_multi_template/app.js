@@ -34,6 +34,8 @@ function render(relativePath, options) {
 
 const app = express();
 
+app.locals.render = render;
+
 app.engine('html', engines.ejs);
 app.engine('ejs', engines.ejs);
 app.engine('pug', engines.pug);
@@ -59,16 +61,9 @@ app.set('views', viewsPath)
  *        <div>template_1: EJS</div>
  *        <div> template_2: PUG, rendered inside EJS</div>
  *        <!-- unsupported engine -->
- * 
- *    Note:
- *        we need to pass a callback function (called inhere
- *        'render'), to be able to render partials, which are
- *        different from the main template engine. In this case
- *        index fallbacks to default view engine, which is 'html',
- *        which on its turn is set to be resolved with EJS.
  */
 app.get('/', (_req, res) => {
-  res.render('index', { render });
+  res.render('index');
 });
 
 /**
